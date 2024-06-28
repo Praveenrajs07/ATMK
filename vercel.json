@@ -1,0 +1,291 @@
+{
+    "rewrites": [
+        {
+            "source": "/platform/v1/userinfo",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userinfo"            
+        },
+        {
+            "source": "/platform/v1/visitinfo",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/visitinfo"            
+        },
+        {
+            "source": "/platform/v1/userexists",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userexists"            
+        },
+        {
+            "source": "/platform/v1/templateusage",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/templateusage"
+        },
+        {
+            "source": "/platform/v1/uservisitrecord",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/uservisitrecord"
+        },
+        {
+            "source": "/platform/v1/payment",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/payment"
+        },
+        {
+            "source": "/platform/v1/invoice",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/invoice"
+        },
+        {
+            "source": "/platform/v1/generateinvoice",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/generateinvoice"
+        },
+        {
+            "source": "/platform/v1/network",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/network"
+        },
+        {
+            "source": "/platform/v1/org",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/org"
+        },
+        {
+            "source": "/platform/v1/userdetail",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userdetail"
+        },
+        {
+            "source": "/platform/v1/userdetail/:path*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userdetail/:path*"
+        },
+        {
+            "source": "/platform/v1/userdetailsid",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userdetailsid"
+        },
+        {
+            "source": "/platform/v1/sigmadocsummary/:id*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/sigmadocsummary/:id*"
+        },
+        {
+            "source": "/platform/v1/sigmadocsummary",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/sigmadocsummary"
+        },
+        {
+            "source": "/platform/v1/sigmadocbytid",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/sigmadocbytid"
+        },
+        {
+            "source": "/platform/v1/sigmadoc/:sigmaId*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/sigmadoc/:sigmaId*"
+        },
+        {
+            "source": "/platform/v1/sigmadoc",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/sigmadoc"
+        },
+        {
+            "source": "/platform/v1/userdetail/:path*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userdetail/:path*"
+        },
+        {
+        "source": "/api/v1/consortia/:status*/environments/:type*/services",
+        "destination": "https://console.kaleido.io/api/v1/consortia/:status*/environments/:type*/services"
+        },
+        {
+            "source": "/platform/v1/session",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/session"
+        },
+        {
+            "source": "/platform/v1/session/:path*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/session/:path*"
+        },
+        {
+            "source": "/platform/v1/resetpassword/:path*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/resetpassword/:path*"
+        },
+
+        {
+            "source": "/platform/v1/userprofile",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userprofile"
+        },
+        {
+            "source": "/platform/v1/userprofile/:path*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userprofile/:path*"
+        },
+        {
+            "source": "/platform/v1/job",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/job"
+        },
+
+
+        {
+            "source": "/platform/v1/finalisedocs",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/finalisedocs"
+        },
+
+        {
+            "source": "/platform/v1/networkbytennatid",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/networkbytennatid "
+        },
+        {
+            "source": "/platform/v1/networkbytennatid/:path*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/networkbytennatid/:path*"
+        },
+        {
+            "source": "/platform/v1/userdetailsid/:path*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userdetailsid/:path*"
+        },
+        {
+            "source": "/platform/v1/userdetailsidall/:path*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userdetailsidall/:path*"
+        }
+        ,
+        {
+            "source": "/platform/v1/sigmanodesummary",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/sigmanodesummary"
+        }
+        ,
+        {
+            "source": "/platform/v1/sigmanodesummary/:path*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/sigmanodesummary/:path*"
+        },
+        {
+            "source": "/platform/v1/tx",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/tx"
+        },
+        {
+            "source": "/platform/v1/blocks",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/blocks"
+        },
+        {
+            "source": "/platform/v1/nftdetails/:uid*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/nftdetails/:uid*"
+        },
+        {
+            "source": "/platform/v1/favourite",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/favourite"
+        },
+        {
+            "source": "/platform/v1/favourite/:emailId*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/favourite/:emailId*"
+        },
+        {
+            "source": "/platform/v1/favourite/:emailId*/:sigmaId*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/favourite/:emailId*/:sigmaId*"
+        },
+        {
+            "source": "/platform/v1/notification",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/notification"
+        },
+        {
+            "source": "/platform/v1/notification/:emailid*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/notification/:emailid*"
+        },
+        {
+            "source": "/platform/v1/notification/:emailid*/:statuses*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/notification/:emailid*/:statuses*"
+        },
+        {
+            "source": "/platform/v1/notificationbyid",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/notificationbyid"
+        },
+        {
+            "source": "/platform/v1/helpandsupport",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/helpandsupport"
+        },
+        {
+            "source": "/platform/v1/helpandsupport/:pageNo*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/helpandsupport/:pageNo*"
+        },
+        {
+            "source": "/platform/v1/helpandsupportstatus/:emailId*/:status*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/helpandsupportstatus/:emailId*/:status*"
+        }      ,
+        {
+            "source": "/platform/v1/jobsfetch",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/jobsfetch"
+        },
+        {
+            "source": "/platform/v1/jobsfetch/:pageNo*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/jobsfetch/:pageNo*"
+        },{
+            "source": "/platform/v1/userdetailbytennantall",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userdetailbytennantall"
+        },
+        {
+            "source": "/platform/v1/userdetailbytennantall/:pageNo*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/userdetailbytennantall/:pageNo*"
+        },
+        {
+            "source": "/platform/v1/helpandsupportstatus",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/helpandsupportstatus"
+        },
+        {
+            "source": "/platform/v1/jobs/:tenantId*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/jobs/:tenantId*"
+        },
+        {
+            "source": "/platform/v1/jobs",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/jobs"
+        },
+        {
+            "source": "/platform/v1/jobsremove/:userId*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/jobsremove/:userId*"
+        },
+        {
+            "source": "/platform/v1/jobschedule",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/jobschedule"
+        },
+        {
+            "source": "/platform/v1/jobschedule/:tennantid*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/jobschedule/:tennantid*"
+        },
+        {
+            "source": "/platform/v1/updatedelay/:scheduletime*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/updatedelay/:scheduletime*"
+        },
+        {
+            "source": "/platform/v1/restdownload",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/restdownload"
+        },
+        {
+            "source": "/platform/v1/jobhandle",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/jobhandle"
+        },
+        {
+            "source": "/platform/v1/jobhandle/:tennat*/:type*/:status*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/jobhandle/:tennat*/:type*/:status*"
+        },
+        {
+            "source": "/platform/v1/uservisitrecord/:id*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/uservisitrecord/:id*"
+        },
+        {
+            "source": "/platform/v1/uservisitrecord/",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/uservisitrecord/"
+        },
+        {
+            "source": "/platform/v1/veevadocs/:tennat*/:type*/:docid*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/veevadocs/:tennat*/:type*/:docid*"
+        },
+        {
+            "source": "/platform/v1/doccount/:id*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/doccount/:id*"
+        },
+        {
+            "source": "/platform/v1/pwdcheck/:emailid*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/pwdcheck/:emailid*"
+        },
+        {
+            "source": "/platform/v1/joblasttime",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/joblasttime"
+        },
+        {
+            "source": "/platform/v1/nfttxavalanche/:id*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/nfttxavalanche/:id*"
+        },
+        {
+            "source": "/platform/v1/blockstxavalanche/:blockno*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/blockstxavalanche/:blockno*"
+        },
+        {
+            "source": "/platform/v1/txinput/:tx*",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/txinput/:tx*"
+        },
+        {
+            "source": "/platform/v1/apilog",
+            "destination": "https://testpolygon.stasisonline.in/platform/v1/apilog"
+        }
+
+
+    ]
+}
